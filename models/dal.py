@@ -13,7 +13,7 @@ import json
 
 def load_db():
     with open(
-        "/Users/prashant/PICT/VELOCITY 5Nov/miniflask_v2/models/flaskcard_db.json"
+        "D:/Velocity/Pycharm/miniflask_v2/models/flaskcard_db.json"
     ) as foo:
         return json.load(foo)
 
